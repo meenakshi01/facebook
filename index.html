@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>My Facebook</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -24,12 +24,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a><img class="hedaer-image" alt="myimg" src="ff.png"></a>
+       <a><img class="hedaer-image" alt="myimg" src="ff.png"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-     
+       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <form class="navbar-form navbar-left">
+      
         <div class="form-group">
 
     <input type="text" class="form-control" id="search-box" placeholder="Search Facebook" >
@@ -38,67 +39,84 @@
     <button type="submit" class="btn btn-default" id="btn-search"><span class="glyphicon glyphicon-search" area-hidden="true"></span></button>    
 
       </form>
-      <ul class="nav navbar-nav navbar-right">
-      <li><img src="babu1.jpg" alt="myimg" class="header-image"></li>
-        <li><a class="white-text" href="#">Manisha <span class="sr-only">(current)</span></a></li>
-        <li><a class="white-text" href="#"> Home <span class="sr-only">(current)</span></a></li>
-       <li><a class="white-text" href="#">Find Friends</a></li>
-      <li><a href="#"> <span class="glyphicon glyphicon-envelope" aria-hidden="true"><span class="badge" id="badge2">4</span>
-      </span>
-   </a>
-</li>
-        <li><a   href="#"> <span class="glyphicon glyphicon-globe" aria-hidden="true"><span class="badge" id="badge1">7</span></span></a></li>
-       <li><a  href="#"> <span class="sr-only">(current)</span>  <span class="glyphicon glyphicon-user" aria-hidden="true"></span></a></li>
-        <li><a  href="#">  <span class="sr-only">(current)</span> <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a>
-        <li class="dropdown"><a href="#" class="dropdown-toggle white-text " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-         <span class="caret"><span></a>
-          <ul class="dropdown-menu">
-           <li><a href="#">Create Page</a></li>
-           <li><a href="#">Manage Group</a></li>
-         <li role="separator" class="divider"></li>       
-             <li><a href="#">Setting</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Log Out</a></li>
-          </ul>
+      <ul class="nav navbar-nav navbar-right nav-pills">
+      <li id="ad-image"><a href="#" class="white-text">
+      <img src="babu1.jpg" id="header-image"></a></li>
+
+      <li><a href="#" class="white-text" id="main1">Manisha </a></li>
+
+      <li><a  href="#" class="white-text" id="menu.home"> Home</a></li>
+
+      <li><a  href="#" class="white-text">Find Friends</a></li>
+
+      <li><a href="#" id="envlp"> 
+      <span class="glyphicon glyphicon-envelope" aria-hidden="true"><span class="badge" id="badge2">4</span></span></a></li>
+
+      <li><a href="#" id="glob">
+      <span class="glyphicon glyphicon-globe" aria-hidden="true"><span class="badge" id="badge1">7</span></span></a></li>
+
+      <li><a  href="#" id="user"> <span class="glyphicon glyphicon-user" aria-hidden="true"></span></a></li>
+
+      <li><a  href="#" id="question-sign"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a></li>
+
+      <li class="dropdown" id="media"><a href="#" class="dropdown-toggle white-text " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+
+      <span class="caret"></span></a>
+
+      <ul class="dropdown-menu">
+
+        <li><a href="#">Create Page</a></li>
+        <li><a href="#">Manage Group</a></li>
+        <li role="separator" class="divider"></li>       
+        <li><a href="#">Setting</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a href="#">Log Out</a></li>
+
+        </ul>
         </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
- <!-- /.container-fluid -->
-</nav>
+        </ul>
+        </div>
+        </div>                        
+        </nav> <!-- /.navbar-collapse -->
+         <!-- /.container-fluid -->
+      
+  </header>
 
-        </header>
-          <div class="container-fluid" >
+       <!-- header-close -->
 
-             <div class="row">
-         <!----------------------------- menu ------------------------------------------>
+          <div class="container" id="wrapper">
 
-                 <div class="hidden-xs hidden-sm col-md-3">
-
-
-                    <div id="menu">
+        <div class="row">
+        <div class="hidden-xs hidden-sm col-md-3">
+        <div id="menu">
 
  
 
-<ul class="nav nav-pills nav-stacked list-heading">
-   <li role="presetation"><a href="#"><img src="babu1.jpg" >Manisha</a></li>
-    <li role="presentation"><a href="#"><img src="download.jpg">News Feed </a></li>
-   <li role="presentation"><a href="#"><img src="download1.jpg">Messenger<span class="badge" id="msngr">4</span></a></li>
-    <p> Shortcuts </p>
-  <li role="presentation"><a href="#"><img src="acad.jpg">AcadView</a></li>
-  <li role="presentation"><a href="#"><img src="images1.png">HTML, CSS Group</a></li>
-  <li role="presentation"><a href="#"><img src="boots.png">Bootstrap Fundas</a></li>
-   <p> Explore </p>
-  <li role="presentation"><a href="#"><img src="images3.jpg">Groups<span class="badge" id="msngr">7</span></a></li>
-  <li role="presentation"><a href="#"><img src="download 4.jpg">Pages<span class="badge" id="msngr">10</span></a></li>
-  <li role="presentation"><a href="#"><img src="images6.jpg">Events</a></li>
-  <li role="presentation"><a href="#"><img src="friend.jpg">Friend List</a></li>
-  <li role="presentation"><a href="#"><img src="games.jpg">Games</a></li>
-  <a href="#" class="dropdown-toggle  " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-         <span class="caret"><span></a> <a href="#">See More..</a> 
+         <ul class="nav nav-pills nav-stacked list-heading">
+
+              <li role="presetation"><a href="#"><img src="babu1.jpg" >Manisha</a></li>
+              <li role="presentation"><a href="#"><img src="download.jpg">News Feed </a></li>
+              <li role="presentation"><a href="#"><img src="download1.jpg">Messenger<span class="badge" id="msngr">4</span></a></li>
+                <p> Shortcuts </p>
+              <li role="presentation"><a href="#"><img src="acad.jpg">AcadView</a></li>
+              <li role="presentation"><a href="#"><img src="images1.png">HTML, CSS Group</a></li>
+              <li role="presentation"><a href="#"><img src="boots.png">Bootstrap Fundas</a></li>
+               <p> Explore </p>
+              <li role="presentation"><a href="#"><img src="images3.jpg">Groups<span class="badge" id="msngr">7</span></a></li>
+              <li role="presentation"><a href="#"><img src="download 4.jpg">Pages<span class="badge" id="msngr">10</span></a></li>
+              <li role="presentation"><a href="#"><img src="images6.jpg">Events</a></li>
+              <li role="presentation"><a href="#"><img src="friend.jpg">Friend List</a></li>
+              <li role="presentation"><a href="#"><img src="games.jpg">Games</a></li>
+              <a href="#" class="dropdown-toggle  " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+
+              <span class="caret"><span></a> <a href="#">See More..</a> 
+               <p class="list-heading"><b>CREATE</b></p>
+              <li role="presentation"><a href="#"> <small>Advert.page.Group.Event </small></a></li> 
+
    
-    </ul>
-    </div>
-       </div>
+          </ul>
+              </div>
+                 </div>
 
     <!------------------------------------ main   -----------------------------------   -->
 
@@ -139,7 +157,7 @@
 </div>
 
  </div>
-</div><br>
+</div>
   <!------------------------------------2nd post------------------------------>
 
  <div class="panel panel-default">
@@ -172,7 +190,7 @@
    <h4 class="media-heading"></h4>
 <input placeholder="Write a comment..." style="width: 100%;margin-top: 15px;">
 </div>
-</div><br>
+</div>
 <!-------------------------------------3rd post------------------------------------> 
 
 <div class="panel panel-default">
@@ -204,7 +222,7 @@
   placeholder="Write a comment...">
 
 </div>
-</div><br>
+</div>
    <!-------------------------------- 4th post ---------------------------------->
 
 <!-- 16:9 aspect ratio -->
@@ -241,7 +259,7 @@
 
 
 </div>
-</div><br>        
+</div>        
     <!-------------------------------------- 5th post ---------------------------------->
  <div class="panel panel-default">
   <div class="panel-heading"><a href="#"><img src="babu1.jpg">Manisha</a>
@@ -324,6 +342,14 @@
 
 <div class="hidden-xs hidden-sm col-md-3">
 
+    <div class="today"><a href="#"><img src="gift.jpg"> Swati Chauhan </a> <span>birthday is today</span>
+    </div>
+
+
+  
+<br>
+
+
 <div id="sidebar"> 
 <div  class="title">Trending</div>
 
@@ -367,10 +393,12 @@
 </div>
 
 
-<br>
+
+
           <!-- crausel -->
      
-     <span class="see">Suggested Pages</span><a href="#">See All</a>
+<a href="#">Suggested Pages</a>
+<span class="see">See All</span>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <div class="embed-responsive embed-responsive-4by3">
 
@@ -425,21 +453,22 @@
 
 
 
+
      <!---------------------- sidebar 2nd ------------------------>
 
 	   <div class="hidden-xs hidden-sm col-md-2">
 
          <div id="sidebar1">
            <ul class="nav nav-pills nav-stacked list-heading">
-   <li role="presentation"><a href="#"> <img src="saira.jpg" class="msg">Saira Sagar<img src="dot.jpg" class="online-btn"  ></a></li>
-    <li role="presentation"><a href="#"> <img src="naveen.jpg" class="msg">Naveen Patel<img src="dot.jpg" class="online-btn" ></a></li>
+   <li role="presentation"><a href="#"> <img src="saira.jpg" class="msg">Saira<img src="dot.jpg" class="online-btn"  ></a></li>
+    <li role="presentation"><a href="#"> <img src="naveen.jpg" class="msg">Naveen<img src="dot.jpg" class="online-btn" ></a></li>
    <li role="presentation"><a href="#"> <img src="meenu.jpg" class="msg">joy reeva<img src="dot.jpg" class="online-btn" ></a></li>
-  <li role="presentation"><a href="#"> <img src="sheenu.jpg" class="msg">Adarsh Patel<img src="dot.jpg" class="online-btn" ></a></li>
-  <li role="presentation"><a href="#"> <img src="anil.jpg" class="msg">Anil Kumar<img src="dot.jpg" class="online-btn" ></a></li>
-  <li role="presentation"><a href="#"> <img src="amit.jpg" class="msg">Amit Kumar<img src="dot.jpg" class="online-btn" ></a></li> 
+  <li role="presentation"><a href="#"> <img src="sheenu.jpg" class="msg">Adarsh<img src="dot.jpg" class="online-btn" ></a></li>
+  <li role="presentation"><a href="#"> <img src="anil.jpg" class="msg">Anil<img src="dot.jpg" class="online-btn" ></a></li>
+  <li role="presentation"><a href="#"> <img src="amit.jpg" class="msg">Amit<img src="dot.jpg" class="online-btn" ></a></li> 
   <li role="presentation"><a href="#"> <img src="man.jpg" class="msg">Jasmeen<img src="dot.jpg" class="online-btn" ></a></li>
-  <li role="presentation"><a href="#"> <img src="meenu.jpg" class="msg">Sakshi Bhatt<img src="dot.jpg" class="online-btn" ></a></li>
-  <li role="presentation"><a href="#"> <img src="man1.jpg" class="msg">Bhavna Garg<img src="dot.jpg" class="online-btn" ></a></li>
+  <li role="presentation"><a href="#"> <img src="meenu.jpg" class="msg">Sakshi<img src="dot.jpg" class="online-btn" ></a></li>
+  <li role="presentation"><a href="#"> <img src="man1.jpg" class="msg">Bhavna<img src="dot.jpg" class="online-btn" ></a></li>
    
     </ul>
 
